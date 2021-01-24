@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:400,700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo{
+  height: 27px;
+  width: 122px;
+}
+
+.mb1{
+  margin-bottom: 1px;;
+}
+
+/* #page-content-wrapper {
+  opacity: 0.5;
+  background-color: #242835;
+ 
+} */
+
+
+
+/* #sidebar-wrapper {
+  min-height: 100vh;
+  /* width: 280px; */
+  /* min-width: 300px;
+  /* margin-left: 46rem; */
+  /* transition: margin .25s ease-out; */
+  /* box-shadow: 9px 12px 19px 0 rgba(45,68,126,0.1); */
+/* } */ 

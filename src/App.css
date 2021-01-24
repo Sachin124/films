@@ -1,0 +1,175 @@
+.navbar{
+  box-shadow: 7px 0 6px 0 rgba(216,216,216,0.59)
+}
+.cm{
+  margin: 0px 0px 14px 30px;
+  color: #99A4B1;
+  font-size: 13px;
+  font-weight: 500;
+}
+.table .thead-light th {
+  color: #495057;
+  background-color: #f7f7f7 !important;
+  border-color: #dee2e6;
+}
+
+.table .thead-light tr th {
+  border: none;
+}
+
+.th_header{
+  font-size: 11px;
+  font-weight: 900;
+  color: #9BA4B0 !important;
+}
+.td_row{
+  color: #454D66 !important;
+}
+
+.td_1{
+  color: #454D66;
+  font-size: 15px;
+  font-weight: bold;
+}
+.n_toggle{
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+}
+
+/* Badge Colors */
+
+.bw{
+  width: 90px;
+  border-radius: 14px !important;
+}
+.badge-purple{
+  color: #ffffff;
+  background-color: #A55ED2;
+}
+.tc1{
+ color: #390d57;
+}
+.tc2{
+  color: #FF6C61;
+ }
+.modal .modal-dialog {
+  margin-top: 120px;
+}
+
+.badge-yellow{
+  color: #ffffff;
+  background-color: #F1A95B;
+}
+.btn-link{
+  background-color: transparent;
+  color: #999;
+  box-shadow: none;
+}
+
+
+.modal-dialog .modal-content {
+  box-shadow: 0 27px 24px 0 rgba(0,0,0,.2), 0 40px 77px 0 rgba(0,0,0,.22);
+  border-radius: 6px;
+  border: none;
+}
+
+
+.btn-orange{
+  background-color:#FF6C61 !important;
+  color: #fff !important;
+  border-color: #FF6C61 !important;
+}
+
+.btn-white{
+  border: 1px solid #DADBE0 !important;
+  border-radius: 2px !important;
+  background-color: #FFFFFF !important;
+  color: #454D66 !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+.film_title{
+  color: #242835;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+.no-border {
+  border: 0 !important;
+  box-shadow: none !important; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.search_img{
+  height: 19px;
+  width: 19px;
+  margin: 10px 5px 0px 0px;
+}
+
+.user_photo{
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    float: left;
+    z-index: 5;
+    margin-right: 11px;
+    border-radius: 50%;
+    margin-left: 23px;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.notification {
+  position: absolute;
+  top: 5px;
+  margin-left: 6px;
+  border: 1px solid #fff;
+  font-size: 9px;
+  background: #f44336;
+  color: #fff;
+  min-width: 20px;
+  padding: 0 5px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 19px;
+  vertical-align: middle;
+  display: block;
+}
+/* Media QueriS */
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .modal-small {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  .modal-small {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+  .modal-small {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+}
